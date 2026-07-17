@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository provides the ArcGIS ModelBuilder toolbox developed for the identification of potential elephant food bank sites in Johor, Peninsular Malaysia.
+This repository provides the ArcGIS ModelBuilder toolbox developed for the identification of potential elephant food bank sites in southern Peninsular Malaysia.
 
 The toolbox implements a spatial multi-criteria decision analysis (MCDA) framework by integrating ecological suitability, elephant movement ecology, human–elephant conflict (HEC), riparian habitat, and interaction risk into a single spatial decision-support workflow.
 
@@ -145,11 +145,12 @@ Processing:
 - Line Density Analysis performed.
 - Forest-edge movement analysed within a 200 m boundary buffer
   (100 m inside and 100 m outside forest edge).
-- High movement density retained.
+- Movement within the forest interior was analysed separately using a dedicated line density analysis.
+- High movement density areas from both analyses were retained for the final overlay.
 
 Purpose:
 
-Identify major elephant travel corridors and movement routes.
+Identify major elephant movement corridors, forest-edge entry and exit routes, and frequently used movement areas within forests.
 
 ---
 

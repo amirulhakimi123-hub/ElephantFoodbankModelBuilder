@@ -4,7 +4,7 @@
 
 This repository provides the ArcGIS ModelBuilder toolbox developed for the identification of potential elephant food bank sites in southern Peninsular Malaysia.
 
-The toolbox implements a spatial multi-criteria decision analysis (MCDA) framework by integrating ecological suitability, elephant movement ecology, human–elephant conflict (HEC), riparian habitat, and interaction risk into a single spatial decision-support workflow.
+The toolbox implements a spatial multi-criteria decision analysis (MCDA) framework by integrating ecological suitability, elephant movement ecology, human–elephant conflict (HEC), riparian habitat, and non-forest elephant use probability into a single spatial decision-support workflow.
 
 This repository was developed to improve the transparency and reproducibility of the modelling framework described in the associated publication.
 

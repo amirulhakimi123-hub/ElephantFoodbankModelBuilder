@@ -42,7 +42,7 @@ The toolbox integrates six spatial submodels before producing the final food ban
 ```
 Habitat Suitability
           │
-Interaction Risk
+Non-forest Elephant Use Probability
           │
 Riparian Habitat
           │
@@ -81,20 +81,20 @@ Identify ecologically suitable habitat for elephants.
 
 ---
 
-## 2. Human–Elephant Interaction Risk
-
+## 2. Non-forest Elephant Use Probability
 Source:
 
-- MaxEnt interaction risk model
+- MaxEnt non-forest elephant use probability model
 
 Processing:
 
-- High interaction risk areas extracted.
-- Buffered by 10 km.
+- The predicted probability of elephant use in non-forest areas was classified.
+- Areas with high predicted elephant use probability were extracted
+- Extracted areas were buffered by 10 km.
 
 Purpose:
 
-Avoid locating food banks in areas with high potential human–elephant interaction.
+Avoid locating food banks in areas wwith high elephant use probability outside forest habitats.
 
 ---
 
@@ -182,7 +182,7 @@ The overlay identifies locations where:
 - Home ranges overlap;
 - Water resources are accessible;
 - Human–elephant conflict mitigation is required; and
-- Areas with high interaction risk are appropriately screened.
+- Areas with high predicted probability of elephant use outside forest habitats are appropriately screened.
 
 The final output represents potential elephant food bank locations.
 
